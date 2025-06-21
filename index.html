@@ -5,45 +5,61 @@
     <title>JTR Electrical</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
-        header { background: black; padding: 2em; text-align: center; }
-        header img { max-width: 200px; }
-        section { padding: 2em; }
-        h1, h2 { color: #DAA520; }
-        footer { background: #f4f4f4; text-align: center; padding: 1em; font-size: 0.9em; }
-    </style>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" alt="JTR Electrical Logo" />
-        <h1>JTR ELECTRICAL</h1>
-        <p>Reliable Residential, Commercial, and Security Electrical Services</p>
-    </header>
-
-    <section>
-        <h2>About Us</h2>
-        <p>Based in Auckland's North Shore, JTR Electrical provides high-quality electrical solutions for homes, businesses, and security systems. Operated by Jack T Read, a trusted and qualified electrician.</p>
+    <section id="header">
+        <div class="inner">
+            <img src="images/logo.png" alt="Logo" style="width: 180px; margin-bottom: 1em;" />
+            <h1>JTR ELECTRICAL</h1>
+            <p>Residential, Commercial & Security Electrical Services in Auckland's North Shore</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Our Services</h2>
-        <ul>
-            <li><strong>Residential:</strong> Lighting, wiring, power upgrades, and more</li>
-            <li><strong>Commercial:</strong> Fit-outs, maintenance, and compliance</li>
-            <li><strong>Security:</strong> CCTV, alarms, sensor lighting</li>
-        </ul>
+    <section id="about" class="main style1">
+        <div class="container">
+            <header class="major">
+                <h2>About Us</h2>
+            </header>
+            <p>JTR Electrical is operated by Jack T Read, a registered and trusted electrician based on the North Shore of Auckland. We pride ourselves on quality workmanship, clear communication, and safety-focused service delivery.</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>📍 Auckland, North Shore<br>
-        📞 0204 133 3593<br>
-        📧 jack_read@hotmail.com</p>
+    <section id="services" class="main style2">
+        <div class="container">
+            <header class="major">
+                <h2>Our Services</h2>
+            </header>
+            <div class="row gtr-150">
+                <div class="col-4 col-12-medium">
+                    <h3>Residential</h3>
+                    <p>Lighting, wiring, switchboards, new build setups, maintenance and more.</p>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <h3>Commercial</h3>
+                    <p>Retail and office fit-outs, test & tag, emergency lighting, fault diagnosis.</p>
+                </div>
+                <div class="col-4 col-12-medium">
+                    <h3>Security</h3>
+                    <p>CCTV installation, alarm systems, motion detectors, and sensor lighting.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        &copy; 2025 JTR Electrical. All rights reserved.
+    <section id="contact" class="main style3 special">
+        <div class="container">
+            <header class="major">
+                <h2>Contact</h2>
+            </header>
+            <p>📍 Auckland, North Shore<br />
+               📞 0204 133 3593<br />
+               ✉️ <a href="mailto:jack_read@hotmail.com">jack_read@hotmail.com</a></p>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2025 JTR Electrical. All rights reserved.</p>
     </footer>
 </body>
 </html>
